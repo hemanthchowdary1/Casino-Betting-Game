@@ -27,14 +27,14 @@ int main()
             cout<<"sorry you are lose all your money you balance now is 0 "<<endl;
             return 0;
         }
-        cout<<"enter bitting amount"<<endl;
+        cout<<"enter bitting amount: ";
         cin>>betting_amount;
         if(betting_amount>amout_money){
             cout<<"you dont have enogh money "<<endl;
             continue ;
         }
 
-        cout<<"guess one :- " ;
+        cout<<"guess one : " ;
         int n;
         cin>>n;
         if(n>10||n<=0){
