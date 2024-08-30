@@ -5,15 +5,6 @@ Deposit and manage balance
 Place bets and guess numbers
 Win or lose based on guesses
 
-Clone the repo:
-git clone https://github.com/yourusername/casino-betting-game.git
-
-Compile:
-g++ -o casino_game main.cpp
-
-Run:
-./casino_game
-
 Usage
 Deposit amount
 Place a bet
